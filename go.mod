@@ -25,7 +25,7 @@ require (
 	github.com/juju/ratelimit v1.0.2
 	github.com/klauspost/compress v1.18.0
 	github.com/mattn/go-ieproxy v0.0.12
-	github.com/mattn/go-isatty v0.0.20
+	github.com/mattn/go-isatty v0.0.24
 	github.com/minio/cli v1.24.2
 	github.com/minio/colorjson v1.0.8
 	github.com/minio/filepath v1.0.0
