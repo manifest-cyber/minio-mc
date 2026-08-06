@@ -37,7 +37,7 @@ require (
 	github.com/muesli/reflow v0.3.0
 	github.com/muesli/termenv v0.16.0
 	github.com/olekukonko/tablewriter v0.0.5
-	github.com/pkg/xattr v0.4.10
+	github.com/pkg/xattr v0.4.12
 	github.com/posener/complete v1.2.3
 	github.com/prometheus/client_golang v1.21.1
 	github.com/prometheus/procfs v0.16.0
