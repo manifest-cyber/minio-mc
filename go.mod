@@ -1,8 +1,6 @@
 module github.com/minio/mc
 
-go 1.24.0
-
-toolchain go1.24.9
+go 1.25
 
 // Install tools using 'go install tool'.
 tool (
@@ -23,14 +21,14 @@ require (
 	github.com/inconshreveable/mousetrap v1.1.0
 	github.com/jedib0t/go-pretty/v6 v6.6.7
 	github.com/juju/ratelimit v1.0.2
-	github.com/klauspost/compress v1.18.0
+	github.com/klauspost/compress v1.18.2
 	github.com/mattn/go-ieproxy v0.0.12
 	github.com/mattn/go-isatty v0.0.20
 	github.com/minio/cli v1.24.2
 	github.com/minio/colorjson v1.0.8
 	github.com/minio/filepath v1.0.0
 	github.com/minio/madmin-go/v3 v3.0.107-0.20250415152934-4b504b82db63
-	github.com/minio/minio-go/v7 v7.0.90
+	github.com/minio/minio-go/v7 v7.0.100
 	github.com/minio/pkg/v3 v3.1.0
 	github.com/minio/selfupdate v0.6.0
 	github.com/mitchellh/go-homedir v1.1.0
@@ -46,10 +44,10 @@ require (
 	github.com/shirou/gopsutil/v3 v3.24.5
 	github.com/tidwall/gjson v1.18.0
 	github.com/vbauerster/mpb/v8 v8.9.3
-	golang.org/x/net v0.46.0
-	golang.org/x/sys v0.37.0
-	golang.org/x/term v0.36.0
-	golang.org/x/text v0.30.0
+	golang.org/x/net v0.48.0
+	golang.org/x/sys v0.39.0
+	golang.org/x/term v0.38.0
+	golang.org/x/text v0.32.0
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
 	gopkg.in/yaml.v2 v2.4.0
 )
@@ -169,7 +167,8 @@ require (
 	github.com/karamaru-alpha/copyloopvar v1.2.1 // indirect
 	github.com/kisielk/errcheck v1.9.0 // indirect
 	github.com/kkHAIKE/contextcheck v1.1.6 // indirect
-	github.com/klauspost/cpuid/v2 v2.2.10 // indirect
+	github.com/klauspost/cpuid/v2 v2.2.11 // indirect
+	github.com/klauspost/crc32 v1.3.0 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/kr/text v0.2.0 // indirect
 	github.com/kulti/thelper v0.7.1 // indirect
@@ -201,7 +200,7 @@ require (
 	github.com/mattn/go-runewidth v0.0.16 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/mgechev/revive v1.12.0 // indirect
-	github.com/minio/crc64nvme v1.0.1 // indirect
+	github.com/minio/crc64nvme v1.1.1 // indirect
 	github.com/minio/md5-simd v1.1.2 // indirect
 	github.com/minio/mux v1.9.0 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
@@ -215,7 +214,7 @@ require (
 	github.com/nunnatsa/ginkgolinter v0.21.0 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.4 // indirect
-	github.com/philhofer/fwd v1.1.3-0.20240916144458-20a13a1f6b7c // indirect
+	github.com/philhofer/fwd v1.2.0 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/polyfloyd/go-errorlint v1.8.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20240221224432-82ca36839d55 // indirect
@@ -262,7 +261,7 @@ require (
 	github.com/tidwall/pretty v1.2.1 // indirect
 	github.com/timakin/bodyclose v0.0.0-20241222091800-1db5c5ca4d67 // indirect
 	github.com/timonwong/loggercheck v0.11.0 // indirect
-	github.com/tinylib/msgp v1.2.5 // indirect
+	github.com/tinylib/msgp v1.6.1 // indirect
 	github.com/tklauser/go-sysconf v0.3.15 // indirect
 	github.com/tklauser/numcpus v0.10.0 // indirect
 	github.com/tomarrell/wrapcheck/v2 v2.11.0 // indirect
@@ -288,11 +287,12 @@ require (
 	go.uber.org/automaxprocs v1.6.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
-	golang.org/x/crypto v0.43.0 // indirect
+	go.yaml.in/yaml/v3 v3.0.4 // indirect
+	golang.org/x/crypto v0.46.0 // indirect
 	golang.org/x/exp/typeparams v0.0.0-20250911091902-df9299821621 // indirect
-	golang.org/x/mod v0.29.0 // indirect
-	golang.org/x/sync v0.17.0 // indirect
-	golang.org/x/tools v0.38.0 // indirect
+	golang.org/x/mod v0.30.0 // indirect
+	golang.org/x/sync v0.19.0 // indirect
+	golang.org/x/tools v0.39.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250603155806-513f23925822 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250728155136-f173205681a0 // indirect
 	google.golang.org/grpc v1.74.2 // indirect
