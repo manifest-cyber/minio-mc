@@ -1,6 +1,6 @@
 module github.com/minio/mc
 
-go 1.24.0
+go 1.24.2
 
 toolchain go1.24.9
 
@@ -11,8 +11,8 @@ tool (
 )
 
 require (
-	github.com/charmbracelet/bubbles v0.20.0
-	github.com/charmbracelet/bubbletea v1.3.4
+	github.com/charmbracelet/bubbles v0.21.1
+	github.com/charmbracelet/bubbletea v1.3.10
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/cheggaaa/pb v1.0.29
 	github.com/dustin/go-humanize v1.0.1
@@ -47,7 +47,7 @@ require (
 	github.com/tidwall/gjson v1.18.0
 	github.com/vbauerster/mpb/v8 v8.9.3
 	golang.org/x/net v0.46.0
-	golang.org/x/sys v0.37.0
+	golang.org/x/sys v0.38.0
 	golang.org/x/term v0.36.0
 	golang.org/x/text v0.30.0
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
@@ -98,11 +98,14 @@ require (
 	github.com/ccojocar/zxcvbn-go v1.0.4 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/charithe/durationcheck v0.0.10 // indirect
-	github.com/charmbracelet/colorprofile v0.2.3-0.20250311203215-f60798e515dc // indirect
-	github.com/charmbracelet/x/ansi v0.8.0 // indirect
-	github.com/charmbracelet/x/cellbuf v0.0.13-0.20250311204145-2c3ea96c31dd // indirect
-	github.com/charmbracelet/x/term v0.2.1 // indirect
+	github.com/charmbracelet/colorprofile v0.4.1 // indirect
+	github.com/charmbracelet/x/ansi v0.11.5 // indirect
+	github.com/charmbracelet/x/cellbuf v0.0.15 // indirect
+	github.com/charmbracelet/x/term v0.2.2 // indirect
 	github.com/ckaznocha/intrange v0.3.1 // indirect
+	github.com/clipperhouse/displaywidth v0.9.0 // indirect
+	github.com/clipperhouse/stringish v0.1.1 // indirect
+	github.com/clipperhouse/uax29/v2 v2.5.0 // indirect
 	github.com/coreos/go-semver v0.3.1 // indirect
 	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
 	github.com/curioswitch/go-reassign v0.3.0 // indirect
@@ -187,7 +190,7 @@ require (
 	github.com/lestrrat-go/iter v1.0.2 // indirect
 	github.com/lestrrat-go/jwx/v2 v2.1.4 // indirect
 	github.com/lestrrat-go/option v1.0.1 // indirect
-	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
+	github.com/lucasb-eyer/go-colorful v1.3.0 // indirect
 	github.com/lufia/plan9stats v0.0.0-20250317134145-8bc96cf8fc35 // indirect
 	github.com/macabu/inamedparam v0.2.0 // indirect
 	github.com/magiconair/properties v1.8.6 // indirect
@@ -198,7 +201,7 @@ require (
 	github.com/matoous/godox v1.1.0 // indirect
 	github.com/mattn/go-colorable v0.1.14 // indirect
 	github.com/mattn/go-localereader v0.0.1 // indirect
-	github.com/mattn/go-runewidth v0.0.16 // indirect
+	github.com/mattn/go-runewidth v0.0.19 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/mgechev/revive v1.12.0 // indirect
 	github.com/minio/crc64nvme v1.0.1 // indirect
