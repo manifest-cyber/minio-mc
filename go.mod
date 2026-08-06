@@ -40,7 +40,7 @@ require (
 	github.com/pkg/xattr v0.4.10
 	github.com/posener/complete v1.2.3
 	github.com/prometheus/client_golang v1.21.1
-	github.com/prometheus/procfs v0.16.0
+	github.com/prometheus/procfs v0.16.1
 	github.com/rjeczalik/notify v0.9.3
 	github.com/rs/xid v1.6.0
 	github.com/shirou/gopsutil/v3 v3.24.5
