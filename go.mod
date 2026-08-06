@@ -39,6 +39,7 @@ require (
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/pkg/xattr v0.4.10
 	github.com/posener/complete v1.2.3
+	github.com/posener/complete/v2 v2.1.0
 	github.com/prometheus/client_golang v1.21.1
 	github.com/prometheus/procfs v0.16.0
 	github.com/rjeczalik/notify v0.9.3
