@@ -44,10 +44,11 @@ require (
 	github.com/rjeczalik/notify v0.9.3
 	github.com/rs/xid v1.6.0
 	github.com/shirou/gopsutil/v3 v3.24.5
+	github.com/shirou/gopsutil/v4 v4.26.7
 	github.com/tidwall/gjson v1.18.0
 	github.com/vbauerster/mpb/v8 v8.9.3
 	golang.org/x/net v0.46.0
-	golang.org/x/sys v0.37.0
+	golang.org/x/sys v0.41.0
 	golang.org/x/term v0.36.0
 	golang.org/x/text v0.30.0
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
@@ -263,8 +264,8 @@ require (
 	github.com/timakin/bodyclose v0.0.0-20241222091800-1db5c5ca4d67 // indirect
 	github.com/timonwong/loggercheck v0.11.0 // indirect
 	github.com/tinylib/msgp v1.2.5 // indirect
-	github.com/tklauser/go-sysconf v0.3.15 // indirect
-	github.com/tklauser/numcpus v0.10.0 // indirect
+	github.com/tklauser/go-sysconf v0.3.16 // indirect
+	github.com/tklauser/numcpus v0.11.0 // indirect
 	github.com/tomarrell/wrapcheck/v2 v2.11.0 // indirect
 	github.com/tommy-muehle/go-mnd/v2 v2.5.1 // indirect
 	github.com/ultraware/funlen v0.2.0 // indirect
