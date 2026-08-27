@@ -12,7 +12,7 @@ tool (
 
 require (
 	github.com/charmbracelet/bubbles v0.20.0
-	github.com/charmbracelet/bubbletea v1.3.4
+	github.com/charmbracelet/bubbletea/v2 v2.0.9
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/cheggaaa/pb v1.0.29
 	github.com/dustin/go-humanize v1.0.1
