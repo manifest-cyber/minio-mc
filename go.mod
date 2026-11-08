@@ -43,7 +43,7 @@ require (
 	github.com/prometheus/procfs v0.16.0
 	github.com/rjeczalik/notify v0.9.3
 	github.com/rs/xid v1.6.0
-	github.com/shirou/gopsutil/v3 v3.24.5
+	github.com/shirou/gopsutil/v4 v4.26.10
 	github.com/tidwall/gjson v1.18.0
 	github.com/vbauerster/mpb/v8 v8.9.3
 	golang.org/x/net v0.46.0
